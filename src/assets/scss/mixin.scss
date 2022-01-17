@@ -1,0 +1,16 @@
+// 禁止折行
+@mixin no-wrap() {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+// 背景图片
+@mixin bg-image($url) {
+    background-image: url($url + '@2x.png');
+    @media (-webkit-min-device-pixel-radio: 3),
+    (min-device-pixel-radio: 3) {
+        background-image: url($url + '@3x.png');
+    }
+}
+
