@@ -923,6 +923,32 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
+"@better-scroll/core@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.nlark.com/@better-scroll/core/download/@better-scroll/core-2.4.2.tgz?cache=0&sync_timestamp=1627914727436&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40better-scroll%2Fcore%2Fdownload%2F%40better-scroll%2Fcore-2.4.2.tgz#e69470012d79923a18034c3e4931720fbb06eae5"
+  integrity sha1-5pRwAS15kjoYA0w+STFyD7sG6uU=
+  dependencies:
+    "@better-scroll/shared-utils" "^2.4.2"
+
+"@better-scroll/observe-dom@^2.4.2":
+  version "2.4.2"
+  resolved "http://npm.xesv5.com/@better-scroll%2fobserve-dom/-/observe-dom-2.4.2.tgz#cc1e6d82a8f53525c282c9a4bcea5d1be8c21c95"
+  integrity sha1-zB5tgqj1NSXCgsmkvOpdG+jCHJU=
+  dependencies:
+    "@better-scroll/core" "^2.4.2"
+
+"@better-scroll/shared-utils@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.nlark.com/@better-scroll/shared-utils/download/@better-scroll/shared-utils-2.4.2.tgz?cache=0&sync_timestamp=1627914725638&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40better-scroll%2Fshared-utils%2Fdownload%2F%40better-scroll%2Fshared-utils-2.4.2.tgz#1ac5c97495727093a22a8009560795dd5e3c18da"
+  integrity sha1-GsXJdJVycJOiKoAJVgeV3V48GNo=
+
+"@better-scroll/slide@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.nlark.com/@better-scroll/slide/download/@better-scroll/slide-2.4.2.tgz?cache=0&sync_timestamp=1627914745796&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40better-scroll%2Fslide%2Fdownload%2F%40better-scroll%2Fslide-2.4.2.tgz#024528ae57516a2ee99bea346381589e4e6a039c"
+  integrity sha1-AkUorldRai7pm+o0Y4FYnk5qA5w=
+  dependencies:
+    "@better-scroll/core" "^2.4.2"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.npmmirror.com/@hapi/address/download/@hapi/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -1166,7 +1192,7 @@
   resolved "https://registry.nlark.com/@vue/babel-helper-vue-transform-on/download/@vue/babel-helper-vue-transform-on-1.0.2.tgz#9b9c691cd06fc855221a2475c3cc831d774bc7dc"
   integrity sha1-m5xpHNBvyFUiGiR1w8yDHXdLx9w=
 
-"@vue/babel-plugin-jsx@^1.0.3":
+"@vue/babel-plugin-jsx@^1.0.3", "@vue/babel-plugin-jsx@^1.1.1":
   version "1.1.1"
   resolved "https://registry.npmmirror.com/@vue/babel-plugin-jsx/download/@vue/babel-plugin-jsx-1.1.1.tgz#0c5bac27880d23f89894cd036a37b55ef61ddfc1"
   integrity sha1-DFusJ4gNI/iYlM0Daje1XvYd38E=
@@ -2017,6 +2043,13 @@ aws4@^1.8.0:
   version "1.11.0"
   resolved "https://registry.nlark.com/aws4/download/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha1-1h9G2DslGSUOJ4Ta9bCUeai0HFk=
+
+axios@^0.25.0:
+  version "0.25.0"
+  resolved "https://registry.npmmirror.com/axios/download/axios-0.25.0.tgz#349cfbb31331a9b4453190791760a8d35b093e0a"
+  integrity sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==
+  dependencies:
+    follow-redirects "^1.14.7"
 
 babel-eslint@^10.1.0:
   version "10.1.0"
@@ -4282,7 +4315,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@^1.0.0:
+follow-redirects@^1.0.0, follow-redirects@^1.14.7:
   version "1.14.7"
   resolved "https://registry.npmmirror.com/follow-redirects/download/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"
   integrity sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==
@@ -9031,6 +9064,11 @@ vue-template-es2015-compiler@^1.9.0:
   version "1.9.1"
   resolved "https://registry.nlark.com/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
+
+vue3-lazy@^1.0.0-alpha.1:
+  version "1.0.0-alpha.1"
+  resolved "https://registry.npmmirror.com/vue3-lazy/download/vue3-lazy-1.0.0-alpha.1.tgz#326a56c2ade4430c76b7ac90d33a7fde0af9aaa6"
+  integrity sha1-MmpWwq3kQwx2t6yQ0zp/3gr5qqY=
 
 vue@^3.0.0:
   version "3.2.27"
